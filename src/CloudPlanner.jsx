@@ -3,7 +3,7 @@ import './planner.css';
 const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 const fromISO=s=>{const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)};
 const shift=(date,days)=>{const d=new Date(date);d.setDate(d.getDate()+days);return d};
-const monday=d=>shift(d,-(d.getDay()+6)%7);
+const monday=d=>shift(d,-((d.getDay()+6)%7));
 const monthTitle=d=>d.toLocaleDateString(undefined,{month:'long',year:'numeric'});
 const dayTitle=d=>d.toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long',year:'numeric'});
 const statusLabel={not_started:'Not started',in_progress:'In progress',completed:'Completed'};

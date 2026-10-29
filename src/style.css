@@ -3,3 +3,15 @@
 /* Dismissible deadline confirmation */
 .deadline-toast{position:fixed;top:24px;right:24px;z-index:3000;display:flex;align-items:flex-start;gap:13px;width:min(440px,calc(100vw - 32px));padding:18px;background:#fff;border:1px solid #d8e8de;border-left:4px solid #31a66d;border-radius:14px;box-shadow:0 18px 48px rgba(21,32,60,.18);animation:toast-enter .22s ease-out}
 .deadline-toast-icon{color:#239c61;flex:none;margin-top:1px}.deadline-toast-content{min-width:0;flex:1}.deadline-toast-content strong{display:block;color:#17233c;font-size:14px;line-height:1.5}.deadline-toast-content p{margin:5px 0;color:#3e4d64;font-size:13px;overflow-wrap:anywhere}.deadline-toast-content span{display:block;color:#6d7890;font-size:11px;line-height:1.5}.deadline-toast-close{border:0;background:transparent;color:#7a8599;cursor:pointer;padding:3px;border-radius:6px;flex:none}.deadline-toast-close:hover{background:#f0f2f6;color:#273248}@keyframes toast-enter{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.deadline-toast{top:12px;right:16px;left:16px;width:auto}}
+
+/* Deadline completion and overdue states */
+.task-complete .task-name {text-decoration:line-through;color:#748398}
+.completed-pill {display:inline-block;margin-left:9px;padding:2px 7px;border-radius:20px;background:#ddf8ec;color:#087d55;font-size:10px;font-weight:700;text-decoration:none;vertical-align:middle}
+.heat-cell.heat-completed {background:#61c7a0!important;border-color:#61c7a0!important}
+.heat-cell.heat-overdue {background:#ef8b8b!important;border-color:#ef8b8b!important}
+.cal-event.cal-completed {background:#ddf8ec!important;color:#087d55!important;text-decoration:line-through}
+.cal-event.cal-overdue {background:#ffe5e5!important;color:#b93e3e!important}
+.day-task.day-completed strong {color:#738596;text-decoration:line-through}
+.day-toggle {border:1px solid #d4dfeb;background:#fff;border-radius:7px;padding:6px 9px;color:#426078;cursor:pointer;font-size:12px}
+.dates i.mini-complete {background:#10a574!important}
+.dates i.mini-overdue {background:#e45d5d!important}

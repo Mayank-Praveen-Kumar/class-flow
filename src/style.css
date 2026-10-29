@@ -25,3 +25,23 @@
 .ocr-preview{padding:14px;border:1px solid #d8def0;border-radius:12px;margin:12px 0}.ocr-preview h3{margin:0 0 12px}.ocr-preview-row{display:grid;grid-template-columns:70px minmax(110px,1fr) 100px 100px 28px;align-items:center;gap:6px;margin:8px 0}.ocr-preview-row input,.ocr-preview-row select{min-width:0;max-width:100%;padding:7px;border:1px solid #d8def0;border-radius:7px}.ocr-preview-row button{border:0;background:transparent;cursor:pointer}@media(max-width:700px){.ocr-preview-row{grid-template-columns:1fr 1fr}.ocr-preview-row select{grid-column:span 2}}
 
 .c19-banner{background:#eef1ff;border:1px solid #d9dfff;border-radius:16px;padding:17px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px;color:#243158}.c19-banner strong{font-size:14px}.c19-banner span{flex:1;min-width:210px;font-size:12px;color:#57617b}.c19-banner button{border:1px solid #aab7f2;background:white;color:#3f4bb3;border-radius:9px;padding:9px 12px;cursor:pointer;font-weight:700}
+
+/* v8: Date-specific calendar / timetable integration */
+.date-timetable-title{display:flex;align-items:center;gap:9px;color:#334155;margin:18px 0 12px;font-size:14px}
+.date-timetable-subtitle{margin-top:24px;border-top:1px solid #e9edf4;padding-top:18px}
+.calendar-lecture{display:flex;gap:12px;align-items:flex-start;border:1px solid #e6eaf1;border-radius:13px;padding:13px;margin:10px 0;background:#fff;flex-wrap:wrap}
+.calendar-lecture-due{border-color:#c7b8fa;background:#fcfaff}
+.calendar-lecture-time{font-size:12px;font-weight:750;color:#64748b;min-width:92px;padding-top:2px}
+.calendar-lecture-content{flex:1;min-width:170px;display:flex;flex-direction:column;gap:5px}
+.calendar-lecture-content>strong{font-size:14px;color:#17233c}
+.calendar-lecture-content>small{color:#64748b;font-size:12px}
+.lecture-due-badge{font-size:11px;font-weight:750;background:#ede9fe;color:#6d28d9;padding:4px 7px;border-radius:8px}
+.calendar-linked-task{margin-top:8px;border-radius:10px;background:#f3efff;padding:10px;border-left:3px solid #8054d9;display:flex;flex-direction:column;gap:6px}
+.calendar-linked-task>div:first-child{display:flex;align-items:center;gap:7px;font-size:12px;color:#5b21b6}
+.calendar-linked-task>small{color:#6b7280;font-size:11px}
+.calendar-linked-task.linked-done{background:#e9f9f0;border-color:#10a574}
+.calendar-linked-task.linked-done>div:first-child{color:#047857}
+.calendar-linked-task.linked-overdue{background:#fff0f0;border-color:#e45454}
+.calendar-linked-task.linked-overdue>div:first-child{color:#b91c1c}
+.calendar-linked-task.linked-progress{background:#fff7e6;border-color:#f59e0b}
+.calendar-day-note{font-size:12px;color:#64748b;line-height:1.6;margin-top:18px}

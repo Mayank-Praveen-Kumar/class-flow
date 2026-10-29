@@ -1,0 +1,168 @@
+{
+  "institution": "Manipal Institute of Technology Bengaluru",
+  "section": "C19",
+  "semester": 1,
+  "academic_year": "2026-27",
+  "entries": [
+    {
+      "day": "Monday",
+      "start": "09:00",
+      "end": "09:50",
+      "subject_code": "FEE",
+      "subject_name": "Fundamentals of Electrical Engineering",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Monday",
+      "start": "09:50",
+      "end": "10:40",
+      "subject_code": "EMSB",
+      "subject_name": "Engineering Mechanics and Smart Buildings",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Monday",
+      "start": "10:50",
+      "end": "11:40",
+      "subject_code": "ACE",
+      "subject_name": "Applied Chemistry for Engineers",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Monday",
+      "start": "11:40",
+      "end": "12:30",
+      "subject_code": "CM",
+      "subject_name": "Computational Mathematics – I",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Tuesday",
+      "start": "10:50",
+      "end": "13:00",
+      "subject_code": "CAEG",
+      "subject_name": "Computer Aided Engineering Graphics Lab",
+      "room": "AB4 216"
+    },
+    {
+      "day": "Tuesday",
+      "start": "14:50",
+      "end": "15:40",
+      "subject_code": "ACE",
+      "subject_name": "Applied Chemistry for Engineers",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Tuesday",
+      "start": "15:40",
+      "end": "16:30",
+      "subject_code": "PPS",
+      "subject_name": "Programming for Problem Solving",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Wednesday",
+      "start": "09:00",
+      "end": "09:50",
+      "subject_code": "EMSB",
+      "subject_name": "Engineering Mechanics and Smart Buildings",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Wednesday",
+      "start": "09:50",
+      "end": "10:40",
+      "subject_code": "PPS",
+      "subject_name": "Programming for Problem Solving",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Wednesday",
+      "start": "10:50",
+      "end": "11:40",
+      "subject_code": "FEE",
+      "subject_name": "Fundamentals of Electrical Engineering",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Wednesday",
+      "start": "11:40",
+      "end": "12:30",
+      "subject_code": "CM",
+      "subject_name": "Computational Mathematics – I",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Wednesday",
+      "start": "14:00",
+      "end": "16:00",
+      "subject_code": "PPS Lab",
+      "subject_name": "Programming for Problem Solving Lab",
+      "room": "AB5 413"
+    },
+    {
+      "day": "Thursday",
+      "start": "13:00",
+      "end": "13:50",
+      "subject_code": "EMSB",
+      "subject_name": "Engineering Mechanics and Smart Buildings",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Thursday",
+      "start": "13:50",
+      "end": "14:40",
+      "subject_code": "PPS",
+      "subject_name": "Programming for Problem Solving",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Thursday",
+      "start": "14:50",
+      "end": "15:40",
+      "subject_code": "EVS",
+      "subject_name": "Environmental Studies",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Thursday",
+      "start": "15:40",
+      "end": "16:30",
+      "subject_code": "CM",
+      "subject_name": "Computational Mathematics – I",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Friday",
+      "start": "09:00",
+      "end": "09:50",
+      "subject_code": "CM",
+      "subject_name": "Computational Mathematics – I",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Friday",
+      "start": "09:50",
+      "end": "10:40",
+      "subject_code": "FEE",
+      "subject_name": "Fundamentals of Electrical Engineering",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Friday",
+      "start": "10:50",
+      "end": "11:40",
+      "subject_code": "ACE",
+      "subject_name": "Applied Chemistry for Engineers",
+      "room": "AB4 502"
+    },
+    {
+      "day": "Friday",
+      "start": "11:40",
+      "end": "12:30",
+      "subject_code": "EVS",
+      "subject_name": "Environmental Studies",
+      "room": "AB4 502"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: Import Classflow history
+on:
+  push:
+    paths:
+      - '.github/workflows/import-history.yml'
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Import versions and remove importer
+        run: |
+          set -euo pipefail
+          git config user.name "Mayank-Praveen-Kumar"
+          git config user.email "264970703+Mayank-Praveen-Kumar@users.noreply.github.com"
+          original=$(git rev-parse HEAD)
+          cp LICENSE /tmp/classflow-LICENSE
+          git fetch ./classflow-history.bundle 'refs/heads/*:refs/remotes/import/*' 'refs/tags/*:refs/tags/*'
+          git checkout --detach refs/remotes/import/classflow-versions
+          cp /tmp/classflow-LICENSE LICENSE
+          git add LICENSE
+          tree=$(git write-tree)
+          final=$(git commit-tree "$tree" -p HEAD -p "$original" -m "Complete Classflow history import; preserve repository license")
+          git push origin "$final:refs/heads/main"
+          git push origin --tags

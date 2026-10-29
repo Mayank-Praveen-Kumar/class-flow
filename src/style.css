@@ -15,3 +15,6 @@
 .day-toggle {border:1px solid #d4dfeb;background:#fff;border-radius:7px;padding:6px 9px;color:#426078;cursor:pointer;font-size:12px}
 .dates i.mini-complete {background:#10a574!important}
 .dates i.mini-overdue {background:#e45d5d!important}
+
+/* Three-stage assignment progress */
+.task-status-select{max-width:130px;min-width:104px;border:1px solid #dfe3ed;border-radius:7px;padding:6px 7px;background:#f5f6fb;color:#64718a;font-size:10px;font-weight:700;cursor:pointer}.task-status-select.status-progress{background:#fff3d9;border-color:#f2d69a;color:#95600a}.task-status-select.status-done{background:#e2f8ed;border-color:#b9e9d0;color:#087d55}.heat-cell.heat-progress{background:#eab45b!important;border-color:#eab45b!important}.cal-event.cal-progress{background:#fff0ce!important;color:#96610b!important}.dates i.mini-progress{background:#eab45b!important}.day-panel .task-status-select{max-width:none;width:100%;margin:8px 0}.task-end{flex-wrap:wrap;justify-content:flex-end;gap:7px}@media(max-width:700px){.task-status-select{min-width:94px;max-width:110px;font-size:9px}.task-end{max-width:145px}}
